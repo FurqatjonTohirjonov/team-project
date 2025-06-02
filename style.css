@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1440px;
+    width: 100%;
+    height: 100vh;
+    border: 2px solid red;
+    margin: 0 auto;
+    padding: 0 50px;
+    display: flex;
+    justify-content: center;
+}
+.ulanish{
+    width: 645px;
+    height: 314px;
+    border: 2px solid red;
+}
+.ulanish .imgs{
+    position: relative;
+}
+.ulanish .imgs img{
+    width: 120px;
+    height: 120px;
+    margin: 10px 263px;
+}
+.ulanish .imgs .aylana{
+    width: 61px;
+    height: 61px;
+    border-radius: 50%;
+    background-color: #F84646;
+    position: absolute;
+    top: 15px;
+    left: 310px;
+    z-index: -1;
+}
+.ulanish .item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.ulanish button{
+    padding: 15px 30px;
+    background-color: #f53838;
+    color: #fff;
+    font-weight: 600;
+    font-size: 24px;
+    border-radius: 8px;
+    border: none;
+    margin-left: 220px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.ulanish button:hover{
+    background-color: #fc3636;
+}
