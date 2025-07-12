@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Manrope", sans-serif;
 }
 .container{
     max-width: 1260px;
@@ -14,20 +15,19 @@
 }
 .ulanish{
     width: 645px;
-    height: 314px;
-    border: 2px solid red;
+    height: 315px;
 }
 .ulanish .imgs{
     position: relative;
 }
 .ulanish .imgs img{
     width: 120px;
-    height: 120px;
+    height: 115px;
     margin: 10px 263px;
 }
 .ulanish .imgs .aylana{
-    width: 61px;
-    height: 61px;
+    width: 60px;
+    height: 60px;
     border-radius: 50%;
     background-color: #F84646;
     position: absolute;
@@ -39,11 +39,10 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    gap: 20px;
+    gap: 15px;
 }
 .ulanish button{
-    padding: 15px 30px;
+    padding: 20px 40px;
     background-color: #f53838;
     color: #fff;
     font-weight: 600;
